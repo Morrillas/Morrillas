@@ -4,4 +4,10 @@
     <pattern>*</pattern>
     <template>I have no answer for that.</template>
   </category>
+  
+  <category>
+      <pattern>Hello</pattern>
+      <template>Hello nice to meet you!</template>
+  </category>
+  
 </aiml>

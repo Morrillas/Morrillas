@@ -6,8 +6,18 @@
   </category>
   
   <category>
-      <pattern>Hello</pattern>
+      <pattern>Hello *</pattern>
       <template>Hello nice to meet you!</template>
+  </category>
+  
+  <category>
+      <pattern>Hi *</pattern>
+      <template>Hello nice to meet you!</template>
+  </category>
+  
+  <category>
+      <pattern>My name is *</pattern>
+      <template>Nice to meet you, *!</template>
   </category>
   
 </aiml>

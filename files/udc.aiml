@@ -22,7 +22,7 @@
   
    
   <category>
-      <pattern>Tell me a story</pattern>
+      <pattern>Tell a story</pattern>
       <template>
           <random>
               <li>A unicorn</li>
@@ -30,18 +30,15 @@
               <li>The crystal elementals</li>
               <li>A griffin</li>
               <li>Pegasus</li>
-          </random>
-          defeated the
-          <random>
+          </random> defeated the <random>
               <li>genies</li>
               <li>the undead</li>
               <li>ogre</li>
               <li>unruly mob</li>
-          </random>
-          and saved the 
-          <random>
+          </random> and saved the <random>
               <li>town</li>
               <li>forest</li>
+              <li>the faries</li>
               <li>princess</li>
               <li>prince</li>
           </random>

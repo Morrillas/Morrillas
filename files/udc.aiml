@@ -7,17 +7,46 @@
   
   <category>
       <pattern>Hello *</pattern>
-      <template>Hello nice to meet you!</template>
+      <template>Hello!</template>
   </category>
   
   <category>
       <pattern>Hi *</pattern>
-      <template>Hello nice to meet you!</template>
+      <template>Hello!</template>
   </category>
   
   <category>
       <pattern>My name is *</pattern>
-      <template>Nice to meet you, *!</template>
+      <template>Nice to meet you, <star index="1"/>.</template>
   </category>
+  
+   
+  <category>
+      <pattern>Tell me a story</pattern>
+      <template>
+          <random>
+              <li>A unicorn</li>
+              <li>A dragon</li>
+              <li>The crystal elementals</li>
+              <li>A griffin</li>
+              <li>Pegasus</li>
+          </random>
+          defeated the
+          <random>
+              <li>genies</li>
+              <li>the undead</li>
+              <li>ogre</li>
+              <li>unruly mob</li>
+          </random>
+          and saved the 
+          <random>
+              <li>town</li>
+              <li>forest</li>
+              <li>princess</li>
+              <li>prince</li>
+          </random>
+      </template>
+  </category>
+  
   
 </aiml>

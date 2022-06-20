@@ -15,12 +15,6 @@
       <template>Hello!</template>
   </category>
   
-  <category>
-      <pattern>My name is *</pattern>
-      <template>Nice to meet you, <star index="1"/>.</template>
-  </category>
-  
-   
  <category>
      <pattern>Begin CS career quiz</pattern>
      <template>

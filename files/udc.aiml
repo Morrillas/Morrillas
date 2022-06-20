@@ -21,29 +21,134 @@
   </category>
   
    
+ <category>
+     <pattern>Begin CS career quiz</pattern>
+     <template>
+         Do you prefer a job where you sit 60-90 percent of the day?
+         <reply>
+             <text>Yes</text>
+             <postback>A1YES</postback>
+         </reply>
+         <reply>
+             <text>No</text>
+             <postback>A1NO</postback>
+         </reply>
+     </template>
+ </category>
+ 
+ <category>
+     <pattern>A1YES</pattern>
+     <template>
+         Do you prefer a job that involves a lot of coding?
+         <reply>
+             <text>Yes</text>
+             <postback>A2YES</postback>
+         </reply>
+         <reply>
+             <text>No</text>
+             <postback>A2NO</postback>
+         </reply>
+     </template>
+ </category>
+ 
   <category>
-      <pattern>Tell a story</pattern>
-      <template>
-          <random>
-              <li>A unicorn</li>
-              <li>A dragon</li>
-              <li>The crystal elementals</li>
-              <li>A griffin</li>
-              <li>Pegasus</li>
-          </random> defeated the <random>
-              <li>genies</li>
-              <li>the undead</li>
-              <li>ogre</li>
-              <li>unruly mob</li>
-          </random> and saved the <random>
-              <li>town</li>
-              <li>forest</li>
-              <li>the faries</li>
-              <li>princess</li>
-              <li>prince</li>
-          </random>
-      </template>
-  </category>
+     <pattern>A2NO</pattern>
+     <template>
+         You should look into Software Quality Assurance and black box testing. 
+         <link>
+             <text>Software Quality Assurance Analysts and Testers</text>
+             <url>https://www.onetonline.org/link/summary/15-1253.00</url>
+         </link>
+     </template>
+ </category>
+ 
+  <category>
+     <pattern>A2YES</pattern>
+     <template>
+         Do you prefer a job that is more creative or analytical?
+         <reply>
+             <text>Creative</text>
+             <postback>CREATIVE</postback>
+         </reply>
+         <reply>
+             <text>Analytical</text>
+             <postback>ANALYTICAL</postback>
+         </reply>
+         <reply>
+             <text>Both</text>
+             <postback>Both</postback>
+         </reply>
+     </template>
+ </category>
+ 
+  <category>
+     <pattern>CREATIVE</pattern>
+     <template>
+         You should look into being a Website Developer. 
+         <link>
+             <text>Web Developers</text>
+             <url>https://www.onetonline.org/link/summary/15-1254.00</url>
+         </link>
+     </template>
+ </category>
+ 
+  <category>
+     <pattern>ANALYTICAL</pattern>
+     <template>
+         You should look into being a Database Administrator. 
+         <link>
+             <text>Database Administrators</text>
+             <url>https://www.onetonline.org/link/summary/15-1242.00</url>
+         </link>
+     </template>
+ </category>
+ 
+  <category>
+     <pattern>BOTH</pattern>
+     <template>
+         You should look into Software Quality Assurance and whitebox testing. 
+         <link>
+             <text>Information Security Analysts</text>
+             <url>https://www.onetonline.org/link/summary/15-1212.00</url>
+         </link>
+     </template>
+ </category>
+ 
+  <category>
+     <pattern>A1NO</pattern>
+     <template>
+         Do you prefer a job that involves a lot of coding?
+         <reply>
+             <text>Yes</text>
+             <postback>B1YES</postback>
+         </reply>
+         <reply>
+             <text>No</text>
+             <postback>B1NO</postback>
+         </reply>
+     </template>
+ </category>
+ 
+  <category>
+     <pattern>B1YES</pattern>
+     <template>
+         You should look into being a Information Security Analyst. 
+         <link>
+             <text>Information Security Analysts</text>
+             <url>https://www.onetonline.org/link/summary/15-1212.00</url>
+         </link>
+     </template>
+ </category>
   
+  <category>
+     <pattern>B1NO</pattern>
+     <template>
+         You should look into being a Network Administrator. 
+         <link>
+             <text>Network and Computer Systems Administrators</text>
+             <url>https://www.onetonline.org/link/summary/15-1244.00</url>
+         </link>
+     </template>
+ </category>
   
 </aiml>
